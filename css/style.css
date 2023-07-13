@@ -28,10 +28,17 @@ body {
   text-align: center;
 }
 
+.link{
+  text-decoration: none;
+}
+
+.list{
+  list-style-type: none;
+}
+
 a {
   font-family: var(--font-roboto);
   font-style: normal;
-  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,17 +86,8 @@ header{
   padding: 24px 76px 0 156px;
 }
 
-.logo-link{
-  text-decoration: none;
-}
-
 .logo-header-studio{
   color: var(--navy-color);  
-}
-
-.header-list-link,
-.header-address-list{
-  list-style-type: none;
 }
 
 .header-phone,
@@ -145,17 +143,21 @@ footer{
 }
 
 .index-order-services-button{
-  width: 169px;
+  width: 170px;
+  font-family: inherit;
   height: 56px;
-  padding: 16px 32px 16px 32px;
   background-color: var(--iris-color);
   color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
   border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.index-order-services-button:hover{
+.index-order-services-button:hover,
+.index-order-services-button:focus{
   background-color: var(--ocean-color);
 }
 
@@ -165,12 +167,6 @@ footer{
 
 .index-our-strength-title{
   display: none;
-}
-
-.index-our-strength-list,
-.index-what-we-list,
-.index-our-team-list{
-  list-style-type: none;
 }
 
 .index-our-strength-text,

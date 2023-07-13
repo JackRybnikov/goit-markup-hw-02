@@ -1,0 +1,234 @@
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --iris-color: rgb(77, 90, 229);
+  --ocean-color: rgb(64, 75, 191);
+  --navy-color: rgb(46, 47, 66);
+  --green-color: rgb(49, 208, 170);
+  --slate-color: rgb(67, 68, 85);
+  --light-slate-color: rgb(142, 143, 153);
+  --cornflower-color: rgb(231, 233, 252);
+  --cloud-color: rgb(244, 244, 253);
+  --navy-blue-modal-color: rgba(46, 47, 66, 0.4);
+  --grey-color: rgba(46, 47, 66, 0.7);
+  --white-color: rgb(255, 255, 255);
+  --dairy-color: rgb(252, 252, 252);
+}
+
+/* Styles for all files */
+
+body {
+  font-family: var(--font-roboto);
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 1440px;
+  text-align: center;
+}
+
+a {
+  font-family: var(--font-roboto);
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+h1{
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+/* header */
+
+.logo-header{
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--navy-color);
+  text-align: left;
+  margin: 0;
+  padding: 24px 76px 0 156px;
+}
+
+.logo-header-web{
+  color: var(--iris-color);  
+}
+
+header{
+  background-color: var(--white-color);
+  color: var(--navy-color);
+  text-align: left;
+  /* height: 72px; */
+}
+
+.header-list-link,
+.header-address-list{
+  list-style-type: none;
+}
+
+.header-phone,
+.header-mail{
+  color: var(--slate-color);
+}
+
+.header-phone:hover,
+.header-phone:focus,
+.header-mail:hover,
+.header-mail:focus{
+  color: var(--ocean-color);
+}
+
+/* footer */
+
+.logo-footer {
+  color: var(--cloud-color);
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-footer-web {
+  color: var(--iris-color);
+}
+
+footer{
+  background-color: var(--navy-color);
+  color: var(--cloud-color);
+  padding: 100px 0 100px 156px;
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+/* Style for index page */
+
+.index-order-services{
+  background-color: var(--navy-color);
+  height: 600px;
+}
+
+.index-order-services-title{
+  margin: 0;
+  padding: 188px 472px 48px 472px;
+}
+
+.index-order-services-button{
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.index-order-services-button:hover{
+  background-color: var(--ocean-color);
+}
+
+.index-our-strength{
+  width: 264px;
+}
+
+.index-our-strength-title{
+  display: none;
+}
+
+.index-our-strength-list,
+.index-what-we-list,
+.index-our-team-list{
+  list-style-type: none;
+}
+
+.index-our-strength-text,
+.index-our-strength-list-title{
+  line-height: 1.5;
+  text-align: left;
+}
+
+.index-our-team{
+  background-color: var(--cloud-color);
+}
+
+.index-our-team-list-el{
+  background-color: var(--white-color);
+  width: 264px;
+  height: 380px;
+}
+/* Style for portfolio page */
+
+.portfolio-button-list,
+.portfolio-elements-list,
+.portfolio-elements-list-list{
+  list-style-type: none;
+}
+
+.portfolio-button-button{
+  background-color: var(--cloud-color);
+  color: var(--iris-color);
+  font-weight: 500;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.portfolio-button-button:hover,
+.portfolio-button-button:focus{
+  background-color: var(--ocean-color);
+  color: var(--white-color)
+}
+
+.portfolio-button-button-all{
+  width: 70px;
+}
+
+.portfolio-button-button-web{
+  width: 116px;
+}
+
+.portfolio-button-button-app{
+  width: 78px;
+}
+
+.portfolio-button-button-design{
+  width: 102px;
+}
+
+.portfolio-button-button-marketing{
+  width: 126px;
+}
+
+.portfolio-elements-title,
+.portfolio-button-title{
+  display: none;
+}
+
+.portfolio-elements-list-list{
+  text-align: left;
+}

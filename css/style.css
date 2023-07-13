@@ -20,6 +20,7 @@
 body {
   font-family: var(--font-roboto);
   color: var(--slate-color);
+  background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -59,27 +60,31 @@ h3{
 
 /* header */
 
+header{
+  color: var(--navy-color);
+  text-align: left;
+  /* height: 72px; */
+}
+
 .logo-header{
+  text-transform: uppercase;
   font-family: var(--font-raleway);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--navy-color);
+  color: var(--iris-color);
   text-align: left;
   margin: 0;
   padding: 24px 76px 0 156px;
 }
 
-.logo-header-web{
-  color: var(--iris-color);  
+.logo-link{
+  text-decoration: none;
 }
 
-header{
-  background-color: var(--white-color);
-  color: var(--navy-color);
-  text-align: left;
-  /* height: 72px; */
+.logo-header-studio{
+  color: var(--navy-color);  
 }
 
 .header-list-link,
@@ -102,6 +107,7 @@ header{
 /* footer */
 
 .logo-footer {
+  text-transform: uppercase;
   color: var(--cloud-color);
   font-family: var(--font-raleway);
   font-weight: 800;

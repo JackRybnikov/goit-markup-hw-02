@@ -172,20 +172,29 @@ footer{
   background-color: var(--ocean-color);
 }
 
+/* 2 section index */
+
 .index-our-strength{
   width: 264px;
-  line-height: 1.2;
 }
 
 .index-our-strength-title{
   display: none;
+  line-height: 1.2;
+  color: var(--navy-color);
 }
 
-.index-our-strength-text,
 .index-our-strength-list-title{
+  line-height: 1.2;
+  color: var(--navy-color);
+}
+
+.index-our-strength-text{
   line-height: 1.5;
   text-align: left;
 }
+
+/* 3 section index */
 
 .index-our-team{
   background-color: var(--cloud-color);

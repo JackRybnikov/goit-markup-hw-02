@@ -251,6 +251,12 @@ header {
   color: var(--white-color);
 }
 
-.portfolio-link-link{
-  
+.portfolio-list-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-list-text{
+  color: var(--slate-color);
 }

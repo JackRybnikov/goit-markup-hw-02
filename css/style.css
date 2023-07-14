@@ -114,9 +114,18 @@ header {
 
 /* footer */
 
+.footer {
+  background-color: var(--navy-color);
+  color: var(--cloud-color);
+  padding: 100px 0 100px 156px;
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
 .logo-footer {
   text-transform: uppercase;
-  color: var(--cloud-color);
+  color: var(--iris-color);
   font-family: var(--font-raleway);
   font-weight: 800;
   font-size: 18px;
@@ -127,17 +136,12 @@ header {
   padding: 0;
 }
 
-.logo-footer-web {
-  color: var(--iris-color);
+.logo-footer-studio {
+  color: var(--cloud-color);
 }
 
-footer {
-  background-color: var(--navy-color);
-  color: var(--cloud-color);
-  padding: 100px 0 100px 156px;
-  margin: 0;
-  letter-spacing: 0.04em;
-  text-align: left;
+.footer-p {
+  letter-spacing: 0.02em;
 }
 
 /* Style for index page */
@@ -218,7 +222,7 @@ footer {
   color: var(--navy-color);
 }
 
-.index-our-team-p{
+.index-our-team-p {
   font-size: 16px;
 }
 

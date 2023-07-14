@@ -218,6 +218,10 @@ footer {
   color: var(--navy-color);
 }
 
+.index-our-team-p{
+  font-size: 16px;
+}
+
 /* Style for portfolio page */
 
 .portfolio-button-list,

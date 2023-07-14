@@ -33,7 +33,7 @@ body {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 a {
@@ -228,7 +228,7 @@ header {
 
 /* Style for portfolio page */
 
-.portfolio-title{
+.portfolio-title {
   display: none;
 }
 
@@ -274,8 +274,4 @@ header {
 .portfolio-elements-title,
 .portfolio-button-title {
   display: none;
-}
-
-.portfolio-elements-list-list {
-  text-align: left;
 }

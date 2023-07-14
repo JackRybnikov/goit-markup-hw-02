@@ -25,7 +25,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   /* width: 1440px; */
-  /* text-align: center; */
+  text-align: center;
 }
 
 .link {
@@ -69,8 +69,6 @@ h3 {
 
 header {
   color: var(--navy-color);
-  /* text-align: left; */
-  /* height: 72px; */
 }
 
 .logo-header {
@@ -81,8 +79,6 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris-color);
-  margin: 0;
-  /* padding: 24px 76px 0 156px; */
 }
 
 .logo-header-studio {
@@ -116,10 +112,8 @@ header {
 
 .footer {
   background-color: var(--navy-color);
-  /* padding: 100px 0 100px 156px; */
   margin: 0;
   letter-spacing: 0.04em;
-  /* text-align: left; */
 }
 
 .logo-footer {
@@ -130,9 +124,6 @@ header {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /* text-align: left; */
-  /* margin: 0; */
-  /* padding: 0; */
 }
 
 .logo-footer-studio {
@@ -148,23 +139,17 @@ header {
 
 .index-order-services {
   background-color: var(--navy-color);
-  /* height: 600px; */
 }
 
 .index-order-services-title {
-  margin: 0;
-  /* padding: 188px 472px 48px 472px; */
 }
 
 .index-order-services-button {
-  /* width: 170px; */
   font-family: inherit;
-  /* height: 56px; */
   background-color: var(--iris-color);
   color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
-  /* border-radius: 4px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -178,11 +163,9 @@ header {
 /* 2 section index */
 
 .index-our-strength {
-  /* width: 264px; */
 }
 
 .index-our-strength-title {
-  /* display: none; */
   line-height: 1.2;
   color: var(--navy-color);
 }
@@ -194,7 +177,6 @@ header {
 
 .index-our-strength-text {
   line-height: 1.5;
-  /* text-align: left; */
 }
 
 /* 3 section index */
@@ -213,8 +195,6 @@ header {
 
 .index-our-team-list-el {
   background-color: var(--white-color);
-  /* width: 264px; */
-  /* height: 380px; */
 }
 
 .index-our-team-list-title {
@@ -229,7 +209,6 @@ header {
 /* Style for portfolio page */
 
 .portfolio-title {
-  /* display: none; */
 }
 
 .portfolio-button-button {
@@ -238,8 +217,6 @@ header {
   color: var(--iris-color);
   font-size: 16px;
   font-weight: 500;
-  /* height: 48px; */
-  /* border-radius: 4px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;

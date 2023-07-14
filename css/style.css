@@ -116,7 +116,6 @@ header {
 
 .footer {
   background-color: var(--navy-color);
-  color: var(--cloud-color);
   padding: 100px 0 100px 156px;
   margin: 0;
   letter-spacing: 0.04em;
@@ -141,6 +140,7 @@ header {
 }
 
 .footer-p {
+  color: var(--cloud-color);
   letter-spacing: 0.02em;
 }
 
@@ -228,18 +228,21 @@ header {
 
 /* Style for portfolio page */
 
-.portfolio-button-list,
-.portfolio-elements-list,
-.portfolio-elements-list-list {
-  list-style-type: none;
+.portfolio-title{
+  display: none;
 }
 
 .portfolio-button-button {
+  font-family: inherit;
   background-color: var(--cloud-color);
   color: var(--iris-color);
+  font-size: 16px;
   font-weight: 500;
   height: 48px;
   border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .portfolio-button-button:hover,

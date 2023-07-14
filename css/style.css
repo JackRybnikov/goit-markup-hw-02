@@ -196,6 +196,13 @@ footer{
 
 /* 3 section index */
 
+.index-what-we-title{
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+/* 4 section index */
+
 .index-our-team{
   background-color: var(--cloud-color);
 }

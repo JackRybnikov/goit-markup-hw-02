@@ -98,16 +98,17 @@ header{
   color: var(--ocean-color);
 }
 
-.header-phone,
-.header-mail{
-  color: var(--slate-color);
+.header-address{
   font-style: normal;
 }
 
-.header-phone:hover,
-.header-phone:focus,
-.header-mail:hover,
-.header-mail:focus{
+.header-address-link{
+  color: var(--slate-color);
+  
+}
+
+.header-address-link:hover,
+.header-address-link:focus{
   color: var(--ocean-color);
 }
 

@@ -24,49 +24,23 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .link {
   text-decoration: none;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list {
   list-style: none;
 }
 
-a {
-  font-family: var(--font-roboto);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* text-align: left; */
-}
-
-h1 {
-  color: var(--white-color);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.02em;
-  color: var(--navy-color);
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-}
-
 /* header */
 
-header {
+.header {
   color: var(--navy-color);
 }
 
@@ -141,6 +115,12 @@ header {
 }
 
 .index-order-services-title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .index-order-services-button {
@@ -161,17 +141,20 @@ header {
 
 /* 2 section index */
 
-.index-our-strength {
-}
-
 .index-our-strength-title {
   line-height: 1.2;
   color: var(--navy-color);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
 }
 
 .index-our-strength-list-title {
   line-height: 1.2;
   color: var(--navy-color);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
 }
 
 .index-our-strength-text {
@@ -184,12 +167,21 @@ header {
 .index-our-team-title {
   line-height: 1.11;
   text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
+  text-align: center;
 }
 
 /* 4 section index */
 
 .index-our-team {
   background-color: var(--cloud-color);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
 }
 
 .index-our-team-list-el {
@@ -199,6 +191,9 @@ header {
 .index-our-team-list-title {
   line-height: 1.2;
   color: var(--navy-color);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
 }
 
 .index-our-team-p {
@@ -208,6 +203,11 @@ header {
 /* Style for portfolio page */
 
 .portfolio-title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-button-button {
@@ -227,12 +227,14 @@ header {
   color: var(--white-color);
 }
 
-.portfolio-list-title{
+.portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
 }
 
-.portfolio-list-text{
+.portfolio-list-text {
   color: var(--slate-color);
 }

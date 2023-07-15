@@ -198,6 +198,8 @@ body {
 
 .index-our-team-p {
   font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
 }
 
 /* Style for portfolio page */
